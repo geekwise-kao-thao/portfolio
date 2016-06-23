@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+html, body{
+    font-size:62.5%;
+    box-sizing:border-box;
+}
+
+body{
+    height:auto;
+    width:100%;
+    text-align: center;
+    font-size:1.7rem;
+    background-image:url(http://i.imgur.com/SVgVb0e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:grey;
+    background-blend-mode: multiply;
+    opacity: .9;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color:#ffffff;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+h1{
+    font-size:4rem;
+    padding: 2rem 0 3rem 0;
+}
+
+h2{
+    padding-bottom: 1rem;
+}
+
+body > header{
+    display:inline-block;
+    height:55rem;
+    background-image:url(http://i.imgur.com/fhIMGzI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:grey;
+    background-blend-mode: multiply;
+    opacity: .9;
+    position: relative;
+    top: -7rem;
+}
+
+body > section{
+    display:inline-block;
+    height:50rem;
+    background-image:url(http://i.imgur.com/fhIMGzI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:grey;
+    background-blend-mode: multiply;
+    opacity: .9;
+}
+
+nav{
+    background-color:#333333;
+    position:relative;
+    top:4rem;
+    z-index: 1;
+    height:7rem;
+    opacity: .8;
+    color:#ffffff;
+}
+
+nav > a{
+    display:inline-block;
+    width:15rem;
+    height:100%;
+    background-color:#1f1217;
+}
+
+nav > a > span{
+    position:relative;
+    top:2.3rem;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.color_white{
+    color:white;
+}
+
+.section_width{
+    width:85%;
+}
+
+#name{
+    font-family: 'Oswald', sans-serif;
+    font-size:14rem;
+    padding-top:12rem;
+}
+
+#title{
+    font-size: 7rem;
+}
+
+#place{
+    font-size:4rem;
+    padding-bottom: 3rem;
+}
+
+#picture{
+    border-radius:100%;
+    border: 2.5px solid #1f1217;
+}
+
+.about_article{
+    width:calc(90%/3);
+    display:inline-block;
+}
+
+article > p{
+    text-align: left;
+    padding:0 .5rem 0 .5rem;
+}
+    
+    
+    
+    
+    
+    
