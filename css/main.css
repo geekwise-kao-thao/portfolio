@@ -13,7 +13,7 @@ body{
     width:100%;
     text-align: center;
     font-size:1.7rem;
-    background-image:url(http://i.imgur.com/SVgVb0e.jpg);
+    background-image:url(https://i.imgur.com/SVgVb0e.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color:grey;
@@ -40,8 +40,8 @@ h2{
 
 body > header{
     display:inline-block;
-    height:55rem;
-    background-image:url(http://i.imgur.com/fhIMGzI.jpg);
+    height:60rem;
+    background-image:url(https://i.imgur.com/fhIMGzI.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color:grey;
@@ -53,16 +53,17 @@ body > header{
 
 body > section{
     display:inline-block;
-    height:50rem;
-    background-image:url(http://i.imgur.com/fhIMGzI.jpg);
+    height:auto;
+    background-image:url(https://i.imgur.com/fhIMGzI.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color:grey;
     background-blend-mode: multiply;
     opacity: .9;
+    margin-top:3rem;
 }
 
-nav{
+#sticky_head{
     background-color:#333333;
     position:relative;
     top:4rem;
@@ -99,7 +100,7 @@ nav > a > span{
 #name{
     font-family: 'Oswald', sans-serif;
     font-size:14rem;
-    padding-top:12rem;
+    padding-top:16rem;
 }
 
 #title{
