@@ -1,285 +1,79 @@
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
-
-*{
-    padding:0;
-    margin:0;
-}
-
-html, body{
-    font-size:62.5%;
-    box-sizing:border-box;
-}
+/* ========== Basic Style ============= */
 
 body{
-    height:auto;
-    width:100%;
-    text-align: center;
-    font-size:1.5rem;
-    background-color:navy;
-    text-transform: capitalize;
     font-family: sans-serif;
-    color:#ffffff;
-    overflow: scroll;
-}
-
-div{
-    display:inline-block;
-}
-
-a{
-    text-decoration: none;
-    color:inherit;
+    
 }
 
 h1{
-    font-size:4rem;
-    padding: 3rem 0 6rem 0;
-    text-shadow: 5px 5px 8px #000000;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    color:#cccccc;
+    font-weight: 300;
 }
 
-h2{
-    padding-bottom: 1rem;
+.content{
+    padding-top:100px;
+    max-width: 640px;
+    margin:0 auto;
+    text-align:center;
 }
 
-/* ================= parallax attempt starts ===================== */
-
-.parallax{
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 300px;
+img{
+    max-width: 100%;
 }
 
-.parallax_group{
-    transition: transform 0.5s;
-    position: relative;
-    height: 100vh;
-    transform-style: preserve-3d;
-}
+/* ===================== Parallax Starts ================================ */
 
-body > section{
-    display:inline-block;
-    height:60rem;
-    background-color:grey;
-    opacity: .9;
-    position: relative;
-    top: -7rem;
-}
-
-#group1{
-    z-index: 5;
-}
-
-#group2{
-    z-index: 3;
-}
-
-#group3{
-    z-index: 4;
-}
-
-#group4{
-    z-index: 2;
-}
-
-#group5{
-    z-index: 3;
-}
-
-#sticky_head{
-    background-color:#333333;
+.bird_box{
     position:relative;
-    top:4rem;
-    z-index: 1;
-    height:7rem;
-    opacity: .9;
-    color:#ffffff;
+    height:600px;
+    background-image: url(https://i.imgur.com/7P6ci8E.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
 }
 
-nav > a{
-    display:inline-block;
-    width:15rem;
-    height:100%;
-    background-color:#1f1217;
-    transition:1s;
-}
-
-nav > a:hover{
-    opacity: 1;
-    box-shadow: 10px 10px 20px #000000;
-}
-
-nav > a > span{
-    position:relative;
-    top:2.3rem;
-}
-
-.font_oswald{
-    font-family: 'Oswald', sans-serif;
-}
-
-.uppercase{
-    text-transform: uppercase;
-}
-
-.lowercase{
-    text-transform: lowercase;
-}
-
-.color_white{
-    color:white;
-}
-
-.section_width{
-    width:85%;
-}
-
-#name{
-    font-size:14rem;
-    padding-top:16rem;
-    text-shadow: 5px 5px 8px #000000;
-}
-
-.opacity_hover{
-    transition:3s;
-}
-
-.opacity_hover:hover{
-    opacity:0;
-}
-
-#title{
-    font-size: 7rem;
-}
-
-#place{
-    font-size:4rem;
-    padding-bottom: 3rem;
-}
-
-#picture{
-    border-radius:100%;
-    border: 2.5px solid #1f1217;
-}
-
-.about_article{
-    width:calc(90%/3);
-    display:inline-block;
-    margin-bottom: 3rem;
-}
-
-.image_width{
-    width:90%;
-    height:13rem;
-    margin-bottom: 1rem;
-    transition:.5s;
-    opacity:.7;
-    box-shadow: 10px 10px 20px #000000;
-}
-
-.image_width:hover{
-    box-shadow: 30px 30px 30px #000000;
-    opacity:1;
-}
-
-.underline{
-    text-decoration: underline;
-}
-
-#geekwise_academy{
-    color:#911b14;
-}
-
-#dustybuns{
-    color:#ba663d;
-}
-
-#address_book{
-    color:#0963b7;
-}
-
-article > p{
-    text-align: left;
-    padding-left: 1.5rem;
-    width:90%;
-}
-
-.technical_traning{
-    width:87%;
-    padding:3rem 0 1rem 0;
-    text-align: left;
-    font-size:2rem;
-}
-
-.technical_traning > div > li{
-    margin:1rem 0 1rem 0;
-}
-
-.training{
+.logo{
+    height:250px;
     width:100%;
+    background-image:url(https://i.imgur.com/MYcBqSI.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size:45%;
+    position:absolute;
+    top:2%;
 }
 
-#group4 > a{
-    display:inline-block;
-    width:calc(90%/4);
-    height:20rem;
-    font-size:6rem;
+.fore_bird{
+    width:960px;
+    height:800px;
+    background-image: url(https://i.imgur.com/Vr3WefP.png);
+    background-position:left bottom;
+    background-repeat: no-repeat;
+    background-size:50%;
+    position:absolute;
+    left:0;
+    top:-185px;
 }
 
-#phone_color{
-    color:#3bd53e;
+.back_bird{
+    width:960px;
+    height:1000px;
+    background-image:url(https://i.imgur.com/Y5BcVqP.png?1);
+    background-repeat: no-repeat;
+    background-size:22%;
+    background-position:top right;
+    position:absolute;
+    top: -150px;
+    right: -140px;
 }
 
-#email_color{
-    color:#e05b4a;
-}
 
-#facebook_color{
-    color:#0037c1;
-}
+/* ============== toggle ============================ */
 
-#twitter_color{
-    color:#55acee;
-}
 
-#group5{
-    height:7rem;
-    background-color:#333333;
-    opacity: .9;
-    width:100%;
-}
 
-#designed_by{
-    position:relative;
-    bottom:-4rem;
-}
 
-#chevron_up{
-    position:relative;
-    bottom:4rem;
-    border-radius: 100%;
-    width:5rem;
-    height:5rem;
-    background-color:#ffffff;
-    border: 2.5px solid #1f1217;
-    color:#333333;
-    font-size:3rem;
-    opacity: .5;
-}
-
-.bounce {
-  -webkit-animation:bounce 1s infinite;
-}
-
-@-webkit-keyframes bounce {
-  0%       { bottom:4rem; }
-  25%, 75% { bottom:4.5rem; }
-  50%      { bottom:3.5rem; }
-  100%     {bottom:4rem;}
-}
 
 
 
