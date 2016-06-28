@@ -1,75 +1,167 @@
-/* ========== Basic Style ============= */
+
+
+
+/* ================= Start of Global section ======================== */
+
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
 
 body{
     font-family: sans-serif;
-    
+    text-transform: capitalize;
+    font-size:62.5%;
+    text-align: center;
+    background-color:#000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size:1rem;
+    text-align: left;
+    padding:0 2rem 0 2rem;
 }
 
 h1{
-    color:#cccccc;
+    color:#000000;
     font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 2px 2px 6px #000000;
+    padding:1rem 0 2rem 0;
 }
 
-.content{
-    padding-top:100px;
-    max-width: 640px;
-    margin:0 auto;
-    text-align:center;
+h2{
+    padding-bottom: 1rem;
+    font-size:1.5rem;
 }
 
 img{
     max-width: 100%;
 }
 
-/* ===================== Parallax Starts ================================ */
+/* ================= Classes ======================== */
 
-.bird_box{
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.font_size_four{
+    font-size:4rem;
+}
+
+.text_case_none{
+    text-transform: none;
+}
+
+
+/* ================= Start of hero section ======================== */
+
+#sticky_head{
+    position:relative;
+    top:3rem;
+    font-family: sans-serif;
+    font-size:2.5rem;
+    z-index: 1;
+    background-color: #9a9a9a;
+    opacity: .6;
+}
+
+#sticky_head > a{
+    color:#ffffff;
+    background-color:#000000;
+    margin: 0 1px 0 1px;
+    padding: 0 15px 0 15px;
+    transition:.5s;
+}
+
+#sticky_head > a:hover{
+    color:#000000;
+    background-color:#ffffff;
+}
+
+#name{
+    text-shadow: 5px 5px 8px #000000;
+}
+
+#fresno{
+    font-size:2rem;
+}
+
+/* ===================== Parallax Starts for hero section ================================ */
+
+.hero_box{
     position:relative;
     height:600px;
-    background-image: url(https://i.imgur.com/7P6ci8E.jpg);
+    background-image: url(https://i.imgur.com/1IFPQGp.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
-.logo{
-    height:250px;
+.name_logo{
+    height:10rem;
     width:100%;
-    background-image:url(https://i.imgur.com/MYcBqSI.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size:45%;
     position:absolute;
-    top:2%;
+    top:20%;
+    font-family: 'Lobster', cursive;
+    font-size:10rem;
+    color:#ffffff;
+    opacity: .8;
 }
 
-.fore_bird{
-    width:960px;
-    height:800px;
-    background-image: url(https://i.imgur.com/Vr3WefP.png);
+.fore_star{
+    width:100%;
+    height:1500px;
+    background-image: url(https://i.imgur.com/A8zYCEP.png?2);
     background-position:left bottom;
-    background-repeat: no-repeat;
-    background-size:50%;
+    background-size:80%;
+    background-repeat: repeat;
     position:absolute;
     left:0;
-    top:-185px;
+    top:-100px;
 }
 
-.back_bird{
-    width:960px;
-    height:1000px;
-    background-image:url(https://i.imgur.com/Y5BcVqP.png?1);
-    background-repeat: no-repeat;
-    background-size:22%;
+.back_star{
+    width:100%;
+    height:800px;
+    background-image:url(https://i.imgur.com/9nnOTw3.gif);
+    background-repeat: repeat;
+    background-size:80%;
     background-position:top right;
     position:absolute;
-    top: -150px;
-    right: -140px;
+    top: -170px;
+    right: 0px;
+}
+
+/* ================= End of hero section ======================== */
+
+/* ================= Start of About Me section ======================== */
+
+.section_width{
+    background-color:#c2c2c2;
+    width:90%;
+    text-align: center;
+    display: inline-block;
+    padding:2rem 0 3rem 0;
+}
+
+.about_article{
+    width:calc(100%/3);
+    float:left;
 }
 
 
-/* ============== toggle ============================ */
 
 
 
