@@ -247,11 +247,15 @@ img{
 }
 
 
-#contact > a{
+#contact > div{
     display:inline-block;
     width:calc(90%/4);
     height:11rem;
     font-size:4rem;
+}
+
+#phone_number{
+    font-size:.8rem;
 }
 
 #phone_color{
@@ -298,6 +302,7 @@ img{
     height:5rem;
     background:#ffffff;
     color:#333333;
+    border: 3px solid #4a4a50;
     font-size:3rem;
     -webkit-animation:bounce 1s infinite;
 }
