@@ -20,8 +20,11 @@ var sticky_header = function (){
         if(nav_bar_top <= 0){
             nav_bar.style.position = 'fixed';
             nav_bar.style.top = '0';
+            nav_bar.style.left = '-1px';
             nav_bar.style.width = '100%';
             nav_bar.style.backgroundColor = '#636363';
+            
+            document.getElementById('my_picture_3').style.marginTop = '20rem';
         };
         
     });

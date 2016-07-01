@@ -18,6 +18,8 @@ body{
     font-size:62.5%;
     text-align: center;
     background-color:#c1c1c1;
+    position: relative;
+    left: 5px;
 }
 
 div{
@@ -50,7 +52,7 @@ h2{
 
 img{
     width: 95%;
-    height:8rem;
+    height:auto;
 }
 
 /* ================= Classes ======================== */
@@ -183,6 +185,14 @@ img{
     padding:2rem 0 3rem 0;
 }
 
+#my_picture_3{
+    display:none;
+}
+
+#my_picture_2{
+    display: none;
+}
+
 #my_picture{
     position:relative;
     top:-70px;
@@ -241,11 +251,14 @@ img{
 #project_paragraph_container{
     position:relative;
     width:100%;
-    height:27rem;
+    padding-bottom: 3rem;
 }
 
 .project_style{
     width:calc(99.5%/3);
+}
+.paragraph_display{
+    display:none;
 }
 
 .border_right_left{
@@ -374,4 +387,252 @@ img{
      #phone_number{
          display: none;
      }
+}
+
+@media only screen and (max-width:950px){
+    
+    #sticky_head > a{
+        margin: 0;
+        padding: 0;
+        width: calc(94%/4);
+        display: inline-block;
+    }
+    
+    /*#sticky_head > a:nth-child(1){*/
+    /*    margin-left:5px;*/
+    /*}*/
+    
+    .hero_box{
+        height:630px;
+    }
+    
+    .name_logo{
+        left:0rem;
+        top:8%;
+    }
+    
+    .name_logo > p {
+        left: 8rem;
+        position: relative;
+    }
+    
+    #my_picture{
+        display: none;
+    }
+    
+    #my_picture_2{
+        display: inline-block;
+        position: relative;
+        top: 17rem;
+        left: -14rem;
+    }
+    
+    #picture_2{
+        border-radius: 100%;
+        border: 5px solid #ffffff;
+        width:14rem;
+        height:14rem;
+        
+    }
+    
+    #web_developer {
+        left: 8rem;
+        position: relative;
+    }
+    
+    #fresno {
+        left: 8rem;
+        position: relative;
+    }
+    
+    #main{
+        width:100%;
+    }
+    
+    h1{
+        padding-top:3rem;
+    }
+    
+    .section_width {
+        width: 95%;
+        padding-top:0;
+    }
+    
+    #projects{
+        padding-bottom: 0;
+        width:100%;
+    }
+    
+    #project_images_container{
+        padding-top:0;
+    }
+    
+    .project_image:hover{
+        opacity: 1;
+        box-shadow: 5px 5px 10px #000000;
+    }
+    
+    #contact > div{
+        height:8rem;
+    }
+    
+    
+}
+
+@media only screen and (max-width:740px){
+    
+    .name_logo {
+        font-size: 5rem;
+    }
+    
+    .name_logo > p {
+        left: 6rem;
+    }
+    
+    #web_developer{
+        font-size:2rem;
+        left:6rem;
+    }
+    
+    #fresno{
+        font-size:1.5rem;
+        left:6rem;
+    }
+    
+    #my_picture_2{
+        top: 13rem;
+        left: -10rem;
+    }
+    
+    #picture_2{
+        width:11rem;
+        height:11rem;
+    }
+    
+    h2{
+        font-size: 1.2rem;
+    }
+    
+    .font_size_four{
+        font-size: 2.5rem;
+    }
+    
+    article > p {
+        font-size: .8rem;
+    }
+    
+    #contact > div {
+        font-size: 2rem;
+        height:6rem;
+    }
+    
+}
+
+@media only screen and (max-width:567px){
+    
+    h2{
+        font-size:1.1rem;
+    }
+    
+}
+
+@media only screen and (max-width:550px){
+    
+    .hero_box {
+        height: 1000px;
+    }
+    
+    #sticky_head{
+        font-size: 2.7rem;
+        top:2rem;
+    }
+    
+    #sticky_head > a {
+        width: 100%;
+        display: block;
+        margin: .1rem 0 .1rem 0;
+    }
+    
+    .name_logo{
+        top: 37%;
+        width: 110%;
+        left: 7rem;
+    }
+    
+    #picture_2 {
+        width: 15rem;
+        height: 15rem;
+    }
+    
+    #my_picture_2 {
+        display:none;
+    }
+    
+    #my_picture_3{
+        display:inline-block;
+        position: relative;
+        top: 0rem;
+        left: -9rem;
+    }
+    
+    #web_developer{
+        left:-8rem;
+    }
+    
+    #fresno{
+        left:-8rem;
+    }
+    
+    .section_width{
+        width:100%;
+    }
+    
+    .float_left{
+        float:none;
+    }
+    
+    .float_right{
+        float:none;
+    }
+    
+    .about_article{
+        width:100%;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    article > p{
+        font-size: 1rem;
+        width: 80%;
+    }
+    
+    .padding_bottom{
+        padding-top:2rem;
+    }
+    
+    .project_style {
+        width: 85%;
+    }
+    
+    #project_paragraph_container{
+        display:none;
+    }
+    
+    .paragraph_display{
+        display:block;
+    }
+    
+    .paragraph_display > p {
+        width: 95%;
+        padding: 1rem 0 2rem 0;
+    }
+    
+    .project_image{
+        opacity:.8;
+    }
+    
+    
+    
 }
