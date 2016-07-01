@@ -20,6 +20,10 @@ body{
     background-color:#c1c1c1;
 }
 
+div{
+    display: inline-block;
+}
+
 a{
     text-decoration: none;
 }
@@ -45,7 +49,7 @@ h2{
 }
 
 img{
-    max-width: 100%;
+    width: 95%;
     height:8rem;
 }
 
@@ -128,6 +132,7 @@ img{
     font-size:10rem;
     color:#ffffff;
     opacity: .8;
+    left:0;
 }
 
 .fore_star{
@@ -186,15 +191,11 @@ img{
 #picture{
     border-radius: 100%;
     border: 5px solid #ffffff;
+    width:8rem;
 }
 
-/*#line_break{*/
-/*    width:100%;*/
-/*    height:10px;*/
-/*}*/
-
 .about_article{
-    width:calc(95%/3);
+    width:calc(100%/3);
     display: inline-block;
 }
 
@@ -237,13 +238,21 @@ img{
     padding: 2rem 0 1rem 0;
 }
 
+#project_paragraph_container{
+    position:relative;
+    width:100%;
+    height:27rem;
+}
+
 .project_style{
     width:calc(99.5%/3);
 }
 
-.border_right{
+.border_right_left{
     border-right:2px #9e9595;
     border-right-style: dotted;
+    border-left:2px #9e9595;
+    border-left-style: dotted;
 }
 
 .project_image{
@@ -303,10 +312,8 @@ img{
 .bounce{
     border-radius:100%;
     position:relative;
-    left:50%;
     bottom:0rem;
     margin-top:-25px;
-    margin-left:-25px;
     width:5rem;
     height:5rem;
     background:#ffffff;
@@ -333,6 +340,38 @@ img{
 
 */
 
+/* ========================= Media Query Starts =================================== */
 
+@media only screen and (max-width:1189px){
+    
+    #main{
+        width:90%;
+    }
+}
 
-
+@media only screen and (max-width:1064px){
+    
+    #contact > div{
+        font-size:3rem;
+    }
+    
+    .border_right_left{
+        border:none;
+    }
+    
+    .name_logo{
+        font-size:7rem;
+    }
+    
+    .font_size_four{
+        font-size:3rem;
+    }
+    .bounce{
+        margin-top: -15px;
+        width: 4rem;
+        height: 4rem;
+    }
+     #phone_number{
+         display: none;
+     }
+}
