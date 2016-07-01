@@ -554,9 +554,13 @@ img{
     }
     
     .name_logo{
-        top: 37%;
+        top: 26%;
         width: 110%;
         left: 7rem;
+    }
+    
+    .name_logo > p{
+        left:-8rem;
     }
     
     #picture_2 {
@@ -572,7 +576,7 @@ img{
         display:inline-block;
         position: relative;
         top: 0rem;
-        left: -9rem;
+        left: -8rem;
     }
     
     #web_developer{
@@ -633,6 +637,40 @@ img{
         opacity:.8;
     }
     
+}
+
+
+@media only screen and (max-width:330px){
+    
+    .hero_box {
+        height: 700px;
+    }
+    
+    #picture_2{
+        width:10rem;
+        height:10rem;
+    }
+    
+    .name_logo {
+        font-size: 3rem;
+        top:40%;
+    }
+    
+    #my_picture_3{
+        top:-1rem;
+    }
+    
+    #web_developer{
+        font-size:1.6rem;
+    }
+    
+    #fresno{
+        font-size:1.3rem;
+    }
     
     
 }
+
+
+
+

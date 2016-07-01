@@ -24,7 +24,6 @@ var sticky_header = function (){
             nav_bar.style.width = '100%';
             nav_bar.style.backgroundColor = '#636363';
             
-            document.getElementById('my_picture_3').style.marginTop = '20rem';
         };
         
     });
