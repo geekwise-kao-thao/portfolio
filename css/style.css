@@ -274,7 +274,7 @@ img{
 
 .project_image:hover{
     opacity: 1;
-    box-shadow: 10px 10px 20px #000000;
+    box-shadow: 5px 5px 10px #000000;
 }
 
 #contact > div{
@@ -292,16 +292,32 @@ img{
     color:#4a4a50;
 }
 
+#phone_color:hover{
+    color:#fa0105;
+}
+
 #email_color{
     color:#4a4a50;
+}
+
+#email_color:hover{
+    color:#ffa500;
 }
 
 #facebook_color{
     color:#4a4a50;
 }
 
+#facebook_color:hover{
+    color:#4169e1;
+}
+
 #twitter_color{
     color:#4a4a50;
+}
+
+#twitter_color:hover{
+    color:#42c0fb;
 }
 
 #footer{
@@ -319,6 +335,10 @@ img{
 
 #bouncing_cheveron{
     color:#4a4a50;
+}
+
+#bouncing_cheveron:hover{
+    color:#333333;
 }
 
 .bounce{
@@ -342,6 +362,10 @@ img{
   100%     {bottom:1rem;}
 }
 
+.bounce:hover{
+    background-color:#eceae7;
+    border: none;
+}
 
 /*
 
