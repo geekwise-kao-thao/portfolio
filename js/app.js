@@ -3,6 +3,8 @@ var sticky_header = function (){
     window.addEventListener('scroll',function(event){
         
         var window_top = this.scrollY;
+        console.log(window_top);
+        
         var logo_element = document.getElementById('name');
         var blurry_star = document.getElementById('blurry_star');
         var front_star = document.getElementById('front_star');
@@ -23,6 +25,21 @@ var sticky_header = function (){
             nav_bar.style.width = '100%';
             nav_bar.style.backgroundColor = '#636363';
             
+        };
+        
+        /* ================== nav bar sticky header ================================= */
+        
+        var projects = document.getElementById('project_images_container').offsetTop;
+        var difference = projects - window.innerHeight / 1.2;
+        
+        
+        console.log(difference);
+        
+        if(window_top > difference){
+            for(var i=1; i<=3; i++){
+                document.getElementById('project_'+i).classList.add('project_showing');
+            }
+            document.getElementById('click_instruction').style.opacity = '1';
         };
         
     });
