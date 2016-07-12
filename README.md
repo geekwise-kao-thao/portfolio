@@ -1,12 +1,3 @@
-# portfolio
+# PORTFOLIO
 
-##Mockups
-
-###Desktop
-
-
-
-###Tablet
-
-###Phone
 
