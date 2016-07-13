@@ -41,4 +41,11 @@ Here are the images of the screen size mock ups:
 
 ![](http://i.imgur.com/NBprAme.png)
 
+![](http://i.imgur.com/GU4X7nP.png?2)
+
+![](http://i.imgur.com/RTCIYqT.png?3)
+
+![](http://i.imgur.com/XbTH0q1.png?2)
+
+
 
