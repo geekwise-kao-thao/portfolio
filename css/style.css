@@ -103,6 +103,11 @@ img{
     background-color:#ffffff;
 }
 
+#sticky_head > a:nth-child(1),
+#sticky_head > a:nth-child(2){
+    padding: 0 1.3rem 0 2rem;
+}
+
 #name{
     text-shadow: 5px 5px 8px #000000;
 }
@@ -300,8 +305,11 @@ img{
     font-size:4rem;
 }
 
+/* ====== May display phone number in the future ====== */
+
 #phone_number{
     font-size:.8rem;
+    display:none;
 }
 
 #phone_color{
@@ -345,7 +353,7 @@ img{
 #designed_by{
     position:relative;
     bottom:-4rem;
-    left:1%;
+    left:0;
     color:#ffffff;
 }
 
