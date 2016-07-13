@@ -17,13 +17,11 @@ In designing this website, it helps to imagine a few real life stories of how ac
 
 ##### Scenario 1:  The Employer Donald.
 
-Donald is a super busy executive.  He is the president of a large and important company that custom designs websites for small businesses throughout California.  He will spend only about two minutes discovering who or what I am.  In the two minutes he is giving me, he should be able to discern how easy it is to follow the design of the website.  Scrolling down, he will see the projects animate in to display and as he hovers over it, the images will appear like it's popping out to be clickable and it is!  So he clicks on it and he is linked view that whole particular project.  Impressed, he view all three.  He soon realizes that 10 minutes have gone by.
+Donald is a super busy executive.  He is the president of a small, but important company that custom designs websites for small businesses throughout California.  He will spend only about two minutes discovering who or what I am.  In the two minutes he is giving me, he should be able to discern how easy it is to follow the design of the website.  Scrolling down, he will see the projects animate in to display and as he hovers over it, the images will appear like it's popping out to be clickable and it is!  So he clicks on it and he is linked view that whole particular project.  Impressed, he view all three.  He soon realizes that 10 minutes have gone by.
 
 ##### Scenario 2:  The Employer's Tech Guy, Cisco.
 
-blah blah blah :  will work on this some more.
-
-
+Cisco is a young adult (aka: teenager) in high school.  He goes to a lousy high school, but he's pretty smart.  Why?  Because he codes after school while other kids his age are joining sport activities or just hanging out (aka: vandalizing).  He works for Donald (character from scenario 1).  He gets excited when his boss assigns him to review other web developers for recruitment.  When he looks at my website he will want to see code.  He will want to break my site, which he will because it's not 100% complete.  However, he will find my parallax effect intriguing and fun to observe, especially know it was done totally in vanilla Javascript.  Also, because the site was done in pure HTML and CSS, he will be impressed and will want to call me for an interview.  He'll be even more impressed when he finds out I am older than his father and had just learned how to code in 5 months. 
 
 ## Mock-ups
 
