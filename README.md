@@ -38,7 +38,7 @@ This website will *not* include the following features:
 
 ## Screen by Screen Specification
 
-The Portfolio website consists of a few different screens.  Each screen will look and feel like any modernized website designed by experienced developers.  Look and layout are important features of any website.  Here are the images of the screen size mock ups (desktop, tablet, & phone size):
+The Portfolio website consists of a few different screens.  Each screen will look and feel like any modernized website designed by experienced developers.  Look and layout are important features of any website.  Here are the image wire-frames for each different screen size (desktop, tablet, & phone size):
 
 ### Desktop
 
